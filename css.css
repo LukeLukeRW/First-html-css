@@ -1,0 +1,48 @@
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: black;
+  }
+
+.caption {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 28%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.background {
+    background-image: url("Nvs9qyd3.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+.button{
+  background-repeat: no-repeat;
+  background-color: orange;
+  padding: 20px;
+  margin: 750px;
+  width: 150px;
+  margin-top: 37%;
+  border: none;
+  border-radius: 35px;
+  font-size: 20px;
+  cursor: pointer; 
+
+
+}
+
+.button:hover{
+  background-color:goldenrod;
+}
